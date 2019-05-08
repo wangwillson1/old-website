@@ -10,3 +10,4 @@ This website was constructed with HTML, CSS, and the Bootstrap 4 framework. In t
 - Portfolio
   - Projects
   - Work Experience
+- Connect

@@ -1,4 +1,4 @@
-# personal-website [WIP]
+# My Personal Website [WIP]
 This is all the code behind my personal website. 
 
 ## Languages and Frameworks

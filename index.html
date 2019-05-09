@@ -13,9 +13,9 @@
         <title>willsonwang.com</title>
     </head>
 
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="80">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-md bg-light navbar-light">
+        <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
             
             <!-- Brand -->
             <a class="navbar-brand" href="#">Willson Wang</a>
@@ -29,10 +29,10 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
@@ -40,12 +40,12 @@
                         </a>
 
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Work Experience</a>
-                            <a class="dropdown-item" href="#">Projects</a>
+                            <a class="dropdown-item" href="#workexp">Work Experience</a>
+                            <a class="dropdown-item" href="#projects">Projects</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Connect</a>
+                        <a class="nav-link" href="#connect">Connect</a>
 
                     </li>
                 </ul>
@@ -61,10 +61,10 @@
         </div>
         
         <!-- About -->
-        <div class="container-fluid padding">
+        <div class="container-fluid padding" id="about">
             <div class="row text-center welcome">
                 <div class="col-12">
-                    <h4 class="display-4">About Me</h4>
+                    <h4 class="display-4">About</h4>
                 </div>
                 <hr>
                 <div class="col-12">
@@ -79,18 +79,108 @@
                 </div>
             </div>
         </div>
+        <hr class="my-4">
         
         <!-- Skills -->
-        
+        <div class="container-fluid padding">
+            <div class="text-center row welcome">
+                <div class="col-12">
+                    <h1 class="display-4" id="skills">Skills</h1>
+                </div>
+                <hr>
+                <div class="col-12">
+                    <p class="lead">These are the languages and frameworks which I am familiar with</p>
+                </div>
+            </div>
+
+            <div class="row text-center padding">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2">
+                    <i class="fas fa-code"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2">
+                    <i class="fab fa-css3"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2">
+                    <i class="fab fa-js"></i>
+                    <h3>JAVASCRIPT</h3>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2">
+                    <i class="fas fa-bold"></i>
+                    <h3>BOOTSTRAP</h3>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2">
+                    <i class="fas fa-plus"></i>
+                    <h3>C/C++</h3>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2">
+                    <i class="fab fa-python"></i>
+                    <h3>PYTHON</h3>
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+
         <!-- Projects -->
+        <div class="container-fluid padding">
+            <div class="text-center row welcome">
+                <div class="col-12">
+                    <h1 class="display-4" id="workexp">Work Experience</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid padding">
+            <hr>
+            <div class="media">
+                <img src="img/purolator-logo.png" class="align-self-center mr-3" style="width:100px">
+                <div class="media-body">
+                    <h4>Front End Developer</h4>
+                    <p class="lead">Revamped the front end of the main website, www.purolator.com.</p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-4">
         
         <!-- Work Experience -->
+        <div class="container-fluid padding">
+            <div class="text-center row welcome">
+                <div class="col-12">
+                    <h1 class="display-4" id="projects">Projects</h1>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-4">
         
         <!-- Connect -->
+        <div class="container-fluid padding">
+            <div class="text-center row welcome">
+                <div class="col-12">
+                    <h1 class="display-4" id="connect">Connect</h1>
+                </div>
+            </div>
+            <div class="row text-center padding">
+                <div class="col-12 social padding">
+                    <a href="#">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
 
     </body>
-    
-    <footer>
-    </footer>
     
 </html>

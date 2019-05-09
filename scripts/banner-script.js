@@ -1,7 +1,7 @@
 // Declaring variables
 var i = 0;
 var txt = 'Willson Wang';
-var speed = 170;
+var speed = 150;
 
 // Defining function
 function typeEffect() {

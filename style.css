@@ -40,6 +40,11 @@ p {
     padding-bottom: 3rem;
 }
 
+.padding .text-center p {
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
 .welcome .display-4 {
     padding-bottom: 0.5rem;
 }

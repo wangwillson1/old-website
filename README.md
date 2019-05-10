@@ -6,5 +6,9 @@ This website was constructed with HTML, CSS, and the Bootstrap 4 framework. In t
 
 ## Features to include:
 - Adding animations on load (ex. elements fading in from sides)
-- Fixing navbar anchors so they link to the correct position
 - Fixing dropdown in navbar to be animated
+
+## Current Bugs
+- Anchors currently do not link to the correct position (slight offset due to navbar)
+- Little blue marks beside the social media icons when hovering over
+- Social media links do not link to anything

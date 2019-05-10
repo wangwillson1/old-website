@@ -28,6 +28,8 @@ nav {
 .display-4 {
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
+    padding-top: 50px;
+    margin-top: -50px;
 }
 
 p {

@@ -11,6 +11,7 @@ This website was constructed with HTML, CSS, and the Bootstrap 4 framework. In t
 ## Current Bugs
 - Anchors currently do not link to the correct position (slight offset due to navbar)
 - Little blue marks beside the social media icons when hovering over
+- Social media icons not centered on small screens
 
 ## Link to Website
 https://wangwillson1.github.io/personal-website/

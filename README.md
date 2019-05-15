@@ -11,6 +11,7 @@ This website was constructed with HTML, CSS, and the Bootstrap 4 framework. In t
 
 ## Current Bugs
 - Social media icons not centered on small screens
+- Display on smaller screens (phone screens) not optimal in work experience/projects section
 
 ## Link to Website
 https://wangwillson1.github.io/personal-website/

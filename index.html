@@ -18,7 +18,7 @@
     <body data-spy="scroll" data-target=".navbar" data-offset="80">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
-            
+
             <!-- Brand -->
             <a class="navbar-brand" href="#"><img src="img/web-logo.png" alt="logo" style="width:170px"></a>
 
@@ -53,7 +53,7 @@
                 </ul>
             </div>
         </nav>
-        
+
         <!-- Landing Banner -->
         <div class="jumbotron text-center padding">
             <img id="face" class="rounded-circle img-thumbnail mx-auto" src="img/face-crop.jpg">
@@ -61,14 +61,13 @@
             <h1 id="animatedName"></h1>
             <script src="scripts/banner-script.js"></script>
         </div>
-        
+
         <!-- About -->
-        <div class="container-fluid padding" id="about">
+        <div class="container-fluid padding">
             <div class="row text-center welcome">
                 <div class="col-12">
-                    <h4 class="display-4">About</h4>
+                    <h4 class="display-4" id="about">About</h4>
                 </div>
-                <hr>
                 <div class="col-12">
                     <p class="lead">
                         I'm studying Computer Science (class of 2023) at the University of Waterloo.
@@ -82,14 +81,13 @@
             </div>
         </div>
         <hr class="my-4">
-        
+
         <!-- Skills -->
         <div class="container-fluid padding">
             <div class="text-center row welcome">
                 <div class="col-12">
                     <h1 class="display-4" id="skills">Skills</h1>
                 </div>
-                <hr>
                 <div class="col-12">
                     <p class="lead">These are the languages and frameworks which I am familiar with</p>
                 </div>
@@ -124,7 +122,7 @@
         </div>
         <hr class="my-4">
 
-        <!-- Projects -->
+        <!-- Work Experience -->
         <div class="container-fluid padding">
             <div class="text-center row welcome">
                 <div class="col-12">
@@ -134,19 +132,28 @@
         </div>
 
         <div class="container-fluid padding">
-            <hr>
             <div class="media">
-                <img src="img/purolator-logo.png" class="align-self-center mr-3" style="width:100px">
+                <a href="https://www.purolator.com" class="align-self-center mr-3">
+                  <img src="img/purolator-logo.png" style="width:130px">
+                </a>
                 <div class="media-body">
                     <h4>Front End Developer</h4>
-                    <p class="lead">Revamped the front end of the main website, www.purolator.com.</p>
+                    <h6>(May 2019 - present)</h6>
+                    <p class="lead">
+                      Responsible for development and changes of the main website, www.purolator.com, using HTML, CSS, Bootstrap, and Javascript
+                      <ul>
+                        <li>Currently "Locator" application to simplify process of finding nearest Purolator location</li>
+                        <li>Monitering rollout and analytics of "Locator" to optimize web traffic on the new application</li>
+                        <li>Will develop "Tracker" application to allow users to easily track packages</li>
+                      </ul>
+                    </p>
                 </div>
             </div>
         </div>
 
         <hr class="my-4">
-        
-        <!-- Work Experience -->
+
+        <!--Projects -->
         <div class="container-fluid padding">
             <div class="text-center row welcome">
                 <div class="col-12">
@@ -155,34 +162,76 @@
             </div>
         </div>
 
+        <div class="container-fluid padding">
+            <div class="media">
+                <a href="https://wangwillson1.github.io/personal-website/" class="align-self-center mr-3">
+                  <img src="img/web-logo.png" style="width:130px">
+                </a>
+                <div class="media-body">
+                    <h4>Personal Website</h4>
+                    <h6>May 2019</h6>
+                    <p class="lead">
+                      Developed my personal website using HTML, CSS, Bootstrap, and Javascript
+                      <ul>
+                        <li>Used Javascript to develop type effect on top banner</li>
+                        <li>Used Bootstrap to ensure website is responsive and compatible for various device sizes</li>
+                        <li>Ensured cross-platform compatibility by testing on common web browsers</li>
+                      </ul>
+                    </p>
+                    <a href="https://github.com/wangwillson1/personal-website">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid padding">
+            <div class="media">
+                <a href="https://wangwillson1.github.io/personal-website/" class="align-self-center mr-3">
+                  <img src="img/medai-logo.png" style="width:130px">
+                </a>
+                <div class="media-body">
+                    <h4>MedAI Website</h4>
+                    <h6>Jan 2019</h6>
+                    <p class="lead">
+                      Designed and developed website using HTML and CSS to showcase a machine learning model used
+                      for our StarterHacks 2019 project
+                      <ul>
+                        <li>Used CSS transitions to animate buttons and navbar</li>
+                        <li>Ensured scalability for various device sizes without Bootstrap</li>
+                      </ul>
+                    </p>
+                    <a href="https://github.com/wangwillson1/medai-website">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+
         <hr class="my-4">
-        
+
         <!-- Connect -->
         <div class="container-fluid padding">
-            <div class="text-center row welcome">
+            <div class="row text-center row welcome">
                 <div class="col-12">
                     <h1 class="display-4" id="connect">Connect</h1>
                 </div>
             </div>
-            <div class="row text-center padding">
-                <div class="col-12 social">
+            <div class="row text-center">
+                <div class="col-12 social padding">
                     <a href="mailto:wang.willson1@gmail.com">
-                        <i class="fas fa-envelope"></i>
+                      <i class="fas fa-envelope"></i>
                     </a>
                     <a href="https://www.github.com/wangwillson1">
-                        <i class="fab fa-github"></i>
+                      <i class="fab fa-github"></i>
                     </a>
-                    <a href="https://www.linkedin.com/wangwillson1">
-                        <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/wangwillson1">
+                      <i class="fab fa-linkedin"></i>
                     </a>
                     <a href="https://www.instagram.com/thefobtographer">
-                        <i class="fab fa-instagram"></i>
+                      <i class="fab fa-instagram"></i>
                     </a>
                 </div>
             </div>
         </div>
-        
+
 
     </body>
-    
+
 </html>

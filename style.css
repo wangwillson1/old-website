@@ -60,6 +60,17 @@ p {
     margin: 1rem;
 }
 
+.media {
+  margin-left: 6rem;
+  margin-right: 6rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+.media li {
+  padding: 0.1rem;
+}
+
 .languages h3 {
     padding-bottom: 2rem;
 }
@@ -90,7 +101,12 @@ p {
 
 .social a {
     font-size: 4rem;
-    padding: 3rem;
+    margin: 3rem;
+    text-decoration: none !important;
+}
+
+.fa-gamepad {
+  font-size: 8rem;
 }
 
 .fa-envelope {
@@ -98,7 +114,7 @@ p {
 }
 
 .fa-github {
-    color: #211f1f;
+    color: #6e5494;
 }
 
 .fa-linkedin {

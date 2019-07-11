@@ -1,0 +1,42 @@
+body {
+  font-family: "Roboto Slab", serif !important; }
+
+.display-4 {
+  font-weight: 400;
+  padding-top: 50px;
+  margin-top: -50px; }
+
+.nav-container {
+  background-color: #f8f9fa; }
+  .nav-container .nav-contents {
+    max-width: 80rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    transition: 0.3s; }
+    .nav-container .nav-contents .nav-item {
+      padding-left: 1rem; }
+  .nav-container nav {
+    font-weight: 300;
+    font-size: 1.2rem; }
+
+.header-container {
+  background-color: #daf6ff; }
+  .header-container .header-contents {
+    max-width: 80rem;
+    padding-left: 5rem;
+    padding-right: 5rem; }
+    .header-container .header-contents #face {
+      height: auto;
+      width: 70px;
+      display: block; }
+    .header-container .header-contents .jumbotron {
+      background-color: inherit; }
+      .header-container .header-contents .jumbotron p {
+        padding-top: 1.2rem;
+        margin-bottom: 0.6rem;
+        font-weight: 300; }
+
+.body-contents {
+  max-width: 80rem;
+  padding-left: 5rem;
+  padding-right: 5rem; }

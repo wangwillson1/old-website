@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="shortcut icon" href="img/favicon/favicon.ico">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
@@ -16,220 +16,220 @@
     </head>
 
     <body data-spy="scroll" data-target=".navbar" data-offset="80">
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
 
-            <!-- Brand -->
-            <a class="navbar-brand" href="#"><img src="img/web-logo.png" alt="logo" style="width:170px"></a>
+      <!-- Navbar -->
+      <div class="nav-container sticky-top">
+        <div class="nav-contents container-fluid">
+          <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
 
-            <!-- Collapse Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+              <!-- Brand -->
+              <a class="navbar-brand" href="#"><img src="img/web-logo.png" alt="logo" style="width:170px"></a>
 
-            <!-- Links -->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            Portfolio
-                        </a>
+              <!-- Collapse Button -->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
 
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#workexp">Work Experience</a>
-                            <a class="dropdown-item" href="#projects">Projects</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#connect">Connect</a>
+              <!-- Links -->
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                          <a class="nav-link" href="#about">About</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#skills">Skills</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                              Portfolio
+                          </a>
 
-                    </li>
-                </ul>
-            </div>
-        </nav>
+                          <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#workexp">Work Experience</a>
+                              <a class="dropdown-item" href="#projects">Projects</a>
+                          </div>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#connect">Connect</a>
 
-        <!-- Landing Banner -->
-        <div class="jumbotron text-center padding">
-            <img id="face" class="rounded-circle img-thumbnail mx-auto" src="img/face-crop.jpg">
-            <p class="lead">Hello, I'm</p>
-            <h1 id="animatedName"></h1>
-            <script src="scripts/banner-script.js"></script>
+                      </li>
+                  </ul>
+              </div>
+          </nav>
         </div>
+      </div>
 
-        <!-- About -->
-        <div class="container-fluid padding">
-            <div class="row text-center welcome">
-                <div class="col-12">
-                    <h4 class="display-4" id="about">About</h4>
-                </div>
-                <div class="col-12">
-                    <p class="lead">
-                        I'm studying Computer Science (class of 2023) at the University of Waterloo.
-                    </p>
-                    <p class="lead">
-                        I'm experienced with web development and I'm passionate about Augmented Reality and
-                        the Internet of Things. I'm also a huge tech enthusiast and enjoy taking photos
-                        whenever I travel.
-                    </p>
-                </div>
-            </div>
+      <!-- Landing Banner -->
+      <div class="header-container">
+        <div class="header-contents container-fluid">
+          <div class="jumbotron padding">
+              <img id="face" class="rounded-circle img-thumbnail mx-auto" src="img/face-crop.jpg">
+              <p class="lead">Hello, I'm</p>
+              <h1 id="animatedName"></h1>
+              <script src="scripts/banner-script.js"></script>
+          </div>
         </div>
-        <hr class="my-4">
+      </div>
 
-        <!-- Skills -->
-        <div class="container-fluid padding">
-            <div class="text-center row welcome">
-                <div class="col-12">
-                    <h1 class="display-4" id="skills">Skills</h1>
-                </div>
-                <div class="col-12">
-                    <p class="lead">These are the languages and frameworks which I am familiar with</p>
-                </div>
+      <div class="body-container">
+        <div class="body-contents container-fluid">
+
+          <!-- About -->
+          <div class="row">
+            <div class="col-12">
+              <h1 id="about">About</h1>
             </div>
-
-            <div class="row text-center languages">
-                <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2">
-                    <i class="fas fa-code"></i>
-                    <h3>HTML</h3>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2">
-                    <i class="fab fa-css3"></i>
-                    <h3>CSS</h3>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2">
-                    <i class="fab fa-js"></i>
-                    <h3>JAVASCRIPT</h3>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2">
-                    <i class="fas fa-bold"></i>
-                    <h3>BOOTSTRAP</h3>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2">
-                    <i class="fas fa-plus"></i>
-                    <h3>C/C++</h3>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2">
-                    <i class="fab fa-python"></i>
-                    <h3>PYTHON</h3>
-                </div>
+            <div class="col-12">
+              <p>I'm studying Computer Science (class of 2023) at the University of Waterloo.</p>
+              <p>I'm experienced with web development and I'm passionate about Augmented Reality and
+                the Internet of Things. I'm also a huge tech enthusiast and enjoy taking photos
+                whenever I travel.</p>
             </div>
-        </div>
-        <hr class="my-4">
+          </div>
 
-        <!-- Work Experience -->
-        <div class="container-fluid padding">
-            <div class="text-center row welcome">
-                <div class="col-12">
-                    <h1 class="display-4" id="workexp">Work Experience</h1>
-                </div>
+          <!-- Horizontal rule -->
+          <hr class="my-4">
+
+          <!-- Skills -->
+          <div class="row">
+            <div class="col-12">
+              <h1 id="skills">Skills</h1>
             </div>
-        </div>
+            <div class="col-12">
+              <p>These are the languages and frameworks which I am familiar with</p>
+            </div>
+          </div>
 
-        <div class="container-fluid padding">
-            <div class="media">
-                <a href="https://www.purolator.com" class="align-self-center mr-3">
-                  <img src="img/purolator-logo.png" style="width:130px">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2">
+              <i class="fas fa-code"></i>
+              <h2>HTML</h2>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2">
+              <i class="fab fa-css3"></i>
+              <h2>CSS</h2>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2">
+              <i class="fab fa-js"></i>
+              <h2>JAVASCRIPT</h2>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2">
+              <i class="fas fa-bold"></i>
+              <h2>BOOTSTRAP</h2>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2">
+              <i class="fas fa-plus"></i>
+              <h2>C/C++</h2>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2">
+              <i class="fab fa-python"></i>
+              <h2>PYTHON</h2>
+            </div>
+          </div>
+
+          <!-- Horizontal rule -->
+          <hr class="my-4">
+
+          <!-- Work Experience -->
+          <div class="row">
+            <div class="col-12">
+              <h1 id="workexp">Work Experience</h1>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-12 col-sm-3 col-md-2">
+              <a href="https://www.purolator.com" class="align-self-center mr-3">
+                <img src="img/purolator-logo.png" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-sm-9 col-md-10">
+              <h2>Front End Developer</h2>
+              <span>(May 2019 - present)</span>
+              <p>Responsible for development and changes of the main website, www.purolator.com, using
+                HTML, CSS, Bootstrap, and Javascript</p>
+              <ul>
+                <li>Currently "Locator" application to simplify process of finding nearest Purolator location</li>
+                <li>Monitering rollout and analytics of "Locator" to optimize web traffic on the new application</li>
+                <li>Will develop "Tracker" application to allow users to easily track packages</li>
+              </ul>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <!-- Projects -->
+          <div class="row">
+            <div class="col-12">
+              <h1 id="projects">Projects</h1>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-12 col-sm-3 col-md-2">
+                <img src="img/web-logo.png" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-sm-9 col-md-10">
+              <h2>Personal Website</h2>
+              <span>May 2019</span>
+              <p>Developed my personal website using HTML, CSS, Bootstrap, and Javascript</p>
+              <ul>
+                <li>Used Javascript to develop type effect on top banner</li>
+                <li>Used Bootstrap to ensure website is responsive and compatible for various device sizes</li>
+                <li>WEnsured cross-platform compatibility by testing on common web browsers</li>
+              </ul>
+              <a href="https://github.com/wangwillson1/personal-website" target="_blank">View on GitHub</a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-sm-3 col-md-2">
+                <img src="img/medai-logo.png" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-sm-9 col-md-10">
+              <h2>MedAI Website</h2>
+              <span>Jan 2019</span>
+              <p>Designed and developed website using HTML and CSS to showcase a machine learning model used for our StarterHacks 2019 project</p>
+              <ul>
+                <li>Used CSS transitions to animate buttons and navbar</li>
+                <li>Ensured scalability for various device sizes without Bootstrap</li>
+              </ul>
+              <a href="https://github.com/wangwillson1/medai-website" target="_blank">View on GitHub</a>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <!-- Connect -->
+          <div class="container-fluid padding">
+            <div class="row welcome">
+              <div class="col-12">
+                <h1 id="connect">Connect</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 social padding">
+                <a href="mailto:wang.willson1@gmail.com">
+                  <i class="fas fa-envelope"></i>
                 </a>
-                <div class="media-body">
-                    <h4>Front End Developer</h4>
-                    <h6>(May 2019 - present)</h6>
-                    <p class="lead">
-                      Responsible for development and changes of the main website, www.purolator.com, using HTML, CSS, Bootstrap, and Javascript
-                      <ul>
-                        <li>Currently "Locator" application to simplify process of finding nearest Purolator location</li>
-                        <li>Monitering rollout and analytics of "Locator" to optimize web traffic on the new application</li>
-                        <li>Will develop "Tracker" application to allow users to easily track packages</li>
-                      </ul>
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <hr class="my-4">
-
-        <!--Projects -->
-        <div class="container-fluid padding">
-            <div class="text-center row welcome">
-                <div class="col-12">
-                    <h1 class="display-4" id="projects">Projects</h1>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid padding">
-            <div class="media">
-                <a href="https://wangwillson1.github.io/personal-website/" class="align-self-center mr-3">
-                  <img src="img/web-logo.png" style="width:130px">
+                <a href="https://www.github.com/wangwillson1">
+                  <i class="fab fa-github"></i>
                 </a>
-                <div class="media-body">
-                    <h4>Personal Website</h4>
-                    <h6>May 2019</h6>
-                    <p class="lead">
-                      Developed my personal website using HTML, CSS, Bootstrap, and Javascript
-                      <ul>
-                        <li>Used Javascript to develop type effect on top banner</li>
-                        <li>Used Bootstrap to ensure website is responsive and compatible for various device sizes</li>
-                        <li>Ensured cross-platform compatibility by testing on common web browsers</li>
-                      </ul>
-                    </p>
-                    <a href="https://github.com/wangwillson1/personal-website">View on GitHub</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid padding">
-            <div class="media">
-                <a href="https://wangwillson1.github.io/personal-website/" class="align-self-center mr-3">
-                  <img src="img/medai-logo.png" style="width:130px">
+                <a href="https://www.linkedin.com/in/wangwillson1">
+                  <i class="fab fa-linkedin"></i>
                 </a>
-                <div class="media-body">
-                    <h4>MedAI Website</h4>
-                    <h6>Jan 2019</h6>
-                    <p class="lead">
-                      Designed and developed website using HTML and CSS to showcase a machine learning model used
-                      for our StarterHacks 2019 project
-                      <ul>
-                        <li>Used CSS transitions to animate buttons and navbar</li>
-                        <li>Ensured scalability for various device sizes without Bootstrap</li>
-                      </ul>
-                    </p>
-                    <a href="https://github.com/wangwillson1/medai-website">View on GitHub</a>
-                </div>
+                <a href="https://www.instagram.com/thefobtographer">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
             </div>
+          </div>
         </div>
-
-        <hr class="my-4">
-
-        <!-- Connect -->
-        <div class="container-fluid padding">
-            <div class="row text-center row welcome">
-                <div class="col-12">
-                    <h1 class="display-4" id="connect">Connect</h1>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-12 social padding">
-                    <a href="mailto:wang.willson1@gmail.com">
-                      <i class="fas fa-envelope"></i>
-                    </a>
-                    <a href="https://www.github.com/wangwillson1">
-                      <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/wangwillson1">
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://www.instagram.com/thefobtographer">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
+      </div>
 
 
     </body>

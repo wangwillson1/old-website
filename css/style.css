@@ -62,7 +62,8 @@ a {
 
 .body-contents {
   max-width: 80rem;
-  transition: 0.2s ease; }
+  transition: 0.2s ease;
+  margin-bottom: 5rem; }
   @media (max-width: 82.1rem) {
     .body-contents {
       padding-left: 2rem;
@@ -129,18 +130,18 @@ a {
   .body-contents {
     text-align: center; }
     .body-contents .project, .body-contents .work {
-      text-align: left; }
+      text-align: center; }
       .body-contents .project div:first-child, .body-contents .work div:first-child {
         display: flex;
         flex-direction: column;
         justify-content: center; } }
 @media (max-width: 576px) {
-  .body-contents .project, .work {
+  .body-contents .project ul, .body-contents .project li, .work ul, .work li {
     text-align: left; }
-    .body-contents .project div:first-child, .work div:first-child {
-      text-align: center;
-      display: block; }
-    .body-contents .project img, .work img {
-      text-align: center;
-      max-width: 150px;
-      margin-bottom: 0.5rem; } }
+  .body-contents .project div:first-child, .work div:first-child {
+    text-align: center;
+    display: block; }
+  .body-contents .project img, .work img {
+    text-align: center;
+    max-width: 150px;
+    margin-bottom: 0.5rem; } }

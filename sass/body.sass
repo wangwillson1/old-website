@@ -1,5 +1,6 @@
 .body-contents
   @include panePadding
+  margin-bottom: 5rem
 
   // header offsets
   #about, #skills, #workexp, #projects, #connect
@@ -89,7 +90,7 @@
     text-align: center
 
     .project, .work
-      text-align: left
+      text-align: center
 
       div:first-child
         display: flex
@@ -100,7 +101,7 @@
 @media (max-width: $mobileWidth)
   .body-contents .project, .work
     ul, li
-    text-align: left
+      text-align: left
 
     div:first-child
       text-align: center

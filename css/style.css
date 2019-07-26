@@ -25,6 +25,10 @@ a {
     font-weight: 300;
     font-size: 1.2rem; }
 
+@media (max-width: 576px) {
+  .nav-container .nav-contents {
+    padding-left: 0;
+    padding-right: 0; } }
 .header-container {
   background-color: #daf6ff; }
   .header-container .header-contents {

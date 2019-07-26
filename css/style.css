@@ -18,7 +18,7 @@ a {
     max-width: 80rem;
     transition: 0.2s ease;
     transition: 0.3s; }
-    @media (max-width: 80rem) {
+    @media (max-width: 82.1rem) {
       .nav-container .nav-contents {
         padding-left: 2rem;
         padding-right: 2rem; } }
@@ -41,7 +41,7 @@ a {
   .header-container .header-contents {
     max-width: 80rem;
     transition: 0.2s ease; }
-    @media (max-width: 80rem) {
+    @media (max-width: 82.1rem) {
       .header-container .header-contents {
         padding-left: 2rem;
         padding-right: 2rem; } }
@@ -63,7 +63,7 @@ a {
 .body-contents {
   max-width: 80rem;
   transition: 0.2s ease; }
-  @media (max-width: 80rem) {
+  @media (max-width: 82.1rem) {
     .body-contents {
       padding-left: 2rem;
       padding-right: 2rem; } }
@@ -74,6 +74,8 @@ a {
   .body-contents #about, .body-contents #skills, .body-contents #workexp, .body-contents #projects, .body-contents #connect {
     margin-top: -60px;
     padding-top: 60px; }
+  .body-contents h1 {
+    margin-bottom: 1rem; }
   .body-contents .skills .fa-code, .body-contents .skills .fa-css3, .body-contents .skills .fa-js, .body-contents .skills .fa-bold, .body-contents .skills .fa-plus, .body-contents .skills .fa-python {
     font-size: 3.5rem;
     margin-top: 1.5rem; }
@@ -123,11 +125,22 @@ a {
     .body-contents .connect .fa-instagram:hover {
       color: #B7CBDC; }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .body-contents {
     text-align: center; }
-    .body-contents .project ul, .body-contents .project li {
+    .body-contents .project, .body-contents .work {
       text-align: left; }
-    .body-contents .project img {
-      padding-bottom: 1rem;
-      width: 200px; } }
+      .body-contents .project div:first-child, .body-contents .work div:first-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; } }
+@media (max-width: 576px) {
+  .body-contents .project, .work {
+    text-align: left; }
+    .body-contents .project div:first-child, .work div:first-child {
+      text-align: center;
+      display: block; }
+    .body-contents .project img, .work img {
+      text-align: center;
+      max-width: 150px;
+      margin-bottom: 0.5rem; } }

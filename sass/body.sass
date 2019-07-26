@@ -6,6 +6,9 @@
     margin-top: -60px
     padding-top: 60px
 
+  h1
+    margin-bottom: 1rem
+
   // Skills section
   .skills
     .fa-code, .fa-css3, .fa-js, .fa-bold, .fa-plus, .fa-python
@@ -80,14 +83,30 @@
       &:hover
         color: #B7CBDC
 
-@media (max-width: $mobileWidth)
+
+@media (max-width: $smWidth)
   .body-contents
     text-align: center
 
-    .project
-      ul, li
-        text-align: left
+    .project, .work
+      text-align: left
 
-      img
-        padding-bottom: 1rem
-        width: 200px
+      div:first-child
+        display: flex
+        flex-direction: column
+        justify-content: center
+
+
+@media (max-width: $mobileWidth)
+  .body-contents .project, .work
+    ul, li
+    text-align: left
+
+    div:first-child
+      text-align: center
+      display: block
+
+    img
+      text-align: center
+      max-width: 150px
+      margin-bottom: 0.5rem

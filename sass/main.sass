@@ -1,4 +1,8 @@
 $mobileWidth: 576px
+$smWidth: 768px
+$mdWidth: 992px
+$lgWidth: 1200px
+$maxWidth: 80rem
 
 body
   font-family: 'Roboto Slab', serif !important
@@ -9,9 +13,16 @@ body
   margin-top: -50px
 
 @mixin panePadding
-  max-width: 80rem
-  padding-left: 5rem
-  padding-right: 5rem
+  max-width: $maxWidth
+  transition: 0.2s ease
+
+  @media (max-width: $maxWidth)
+    padding-left: 2rem
+    padding-right: 2rem
+
+  @media (max-width: $smWidth)
+    padding-left: 5rem
+    padding-right: 5rem
 
 p, ul, li, a
   font-weight: 300

@@ -16,16 +16,23 @@ a {
   background-color: #f8f9fa; }
   .nav-container .nav-contents {
     max-width: 80rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    transition: 0.2s ease;
     transition: 0.3s; }
+    @media (max-width: 80rem) {
+      .nav-container .nav-contents {
+        padding-left: 2rem;
+        padding-right: 2rem; } }
+    @media (max-width: 768px) {
+      .nav-container .nav-contents {
+        padding-left: 5rem;
+        padding-right: 5rem; } }
     .nav-container .nav-contents .nav-item {
       padding-left: 1rem; }
   .nav-container nav {
     font-weight: 300;
     font-size: 1.2rem; }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .nav-container .nav-contents {
     padding-left: 0;
     padding-right: 0; } }
@@ -33,8 +40,15 @@ a {
   background-color: #daf6ff; }
   .header-container .header-contents {
     max-width: 80rem;
-    padding-left: 5rem;
-    padding-right: 5rem; }
+    transition: 0.2s ease; }
+    @media (max-width: 80rem) {
+      .header-container .header-contents {
+        padding-left: 2rem;
+        padding-right: 2rem; } }
+    @media (max-width: 768px) {
+      .header-container .header-contents {
+        padding-left: 5rem;
+        padding-right: 5rem; } }
     .header-container .header-contents #face {
       height: auto;
       width: 70px;
@@ -48,8 +62,15 @@ a {
 
 .body-contents {
   max-width: 80rem;
-  padding-left: 5rem;
-  padding-right: 5rem; }
+  transition: 0.2s ease; }
+  @media (max-width: 80rem) {
+    .body-contents {
+      padding-left: 2rem;
+      padding-right: 2rem; } }
+  @media (max-width: 768px) {
+    .body-contents {
+      padding-left: 5rem;
+      padding-right: 5rem; } }
   .body-contents #about, .body-contents #skills, .body-contents #workexp, .body-contents #projects, .body-contents #connect {
     margin-top: -60px;
     padding-top: 60px; }
@@ -76,9 +97,12 @@ a {
     margin-bottom: 2rem; }
     .body-contents .project img {
       padding-top: 0.5rem; }
+  .body-contents .connect div:nth-child(1), .body-contents .connect div:nth-child(2) {
+    margin-top: 1rem; }
+  .body-contents .connect div:nth-child(3), .body-contents .connect div:nth-child(4) {
+    margin-top: 2rem; }
   .body-contents .connect .fa-envelope, .body-contents .connect .fa-github, .body-contents .connect .fa-linkedin, .body-contents .connect .fa-instagram {
     font-size: 4rem;
-    margin: 1rem;
     transition: 0.2s ease; }
     .body-contents .connect .fa-envelope:hover, .body-contents .connect .fa-github:hover, .body-contents .connect .fa-linkedin:hover, .body-contents .connect .fa-instagram:hover {
       transition: 0.1s ease; }
@@ -98,3 +122,12 @@ a {
     color: #517fa4; }
     .body-contents .connect .fa-instagram:hover {
       color: #B7CBDC; }
+
+@media (max-width: 576px) {
+  .body-contents {
+    text-align: center; }
+    .body-contents .project ul, .body-contents .project li {
+      text-align: left; }
+    .body-contents .project img {
+      padding-bottom: 1rem;
+      width: 200px; } }

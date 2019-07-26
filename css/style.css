@@ -6,6 +6,12 @@ body {
   padding-top: 50px;
   margin-top: -50px; }
 
+p, ul, li, a {
+  font-weight: 300; }
+
+a {
+  text-decoration: none; }
+
 .nav-container {
   background-color: #f8f9fa; }
   .nav-container .nav-contents {
@@ -40,3 +46,48 @@ body {
   max-width: 80rem;
   padding-left: 5rem;
   padding-right: 5rem; }
+  .body-contents .skills .fa-code, .body-contents .skills .fa-css3, .body-contents .skills .fa-js, .body-contents .skills .fa-bold, .body-contents .skills .fa-plus, .body-contents .skills .fa-python {
+    font-size: 3.5rem;
+    margin-top: 1.5rem; }
+  .body-contents .skills .fa-code {
+    color: #e54d26; }
+  .body-contents .skills .fa-css3 {
+    color: #2163af; }
+  .body-contents .skills .fa-js {
+    color: #f0db4f; }
+  .body-contents .skills .fa-bold {
+    color: #563d7c; }
+  .body-contents .skills .fa-plus {
+    color: #008080; }
+  .body-contents .skills .fa-python {
+    color: #306998; }
+  .body-contents .skills > div h2 {
+    margin-top: 0.5rem; }
+  .body-contents .work {
+    margin-top: 1rem; }
+  .body-contents .project {
+    margin-bottom: 2rem; }
+    .body-contents .project img {
+      padding-top: 0.5rem; }
+  .body-contents .connect .fa-envelope, .body-contents .connect .fa-github, .body-contents .connect .fa-linkedin, .body-contents .connect .fa-instagram {
+    font-size: 4rem;
+    margin: 1rem;
+    transition: 0.2s ease; }
+    .body-contents .connect .fa-envelope:hover, .body-contents .connect .fa-github:hover, .body-contents .connect .fa-linkedin:hover, .body-contents .connect .fa-instagram:hover {
+      transition: 0.1s ease; }
+  .body-contents .connect .fa-envelope {
+    color: #d44638; }
+    .body-contents .connect .fa-envelope:hover {
+      color: #F3C8C4; }
+  .body-contents .connect .fa-github {
+    color: #6e5494; }
+    .body-contents .connect .fa-github:hover {
+      color: #C9BEDA; }
+  .body-contents .connect .fa-linkedin {
+    color: #0077B5; }
+    .body-contents .connect .fa-linkedin:hover {
+      color: #B8E6FF; }
+  .body-contents .connect .fa-instagram {
+    color: #517fa4; }
+    .body-contents .connect .fa-instagram:hover {
+      color: #B7CBDC; }

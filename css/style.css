@@ -63,7 +63,7 @@ a {
 .body-contents {
   max-width: 80rem;
   transition: 0.2s ease;
-  margin-bottom: 5rem; }
+  margin-bottom: 4.5rem; }
   @media (max-width: 82.1rem) {
     .body-contents {
       padding-left: 2rem;
@@ -100,10 +100,9 @@ a {
     margin-bottom: 2rem; }
     .body-contents .project img {
       padding-top: 0.5rem; }
-  .body-contents .connect div:nth-child(1), .body-contents .connect div:nth-child(2) {
-    margin-top: 1rem; }
-  .body-contents .connect div:nth-child(3), .body-contents .connect div:nth-child(4) {
-    margin-top: 2rem; }
+  .body-contents .connect div {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
   .body-contents .connect .fa-envelope, .body-contents .connect .fa-github, .body-contents .connect .fa-linkedin, .body-contents .connect .fa-instagram {
     font-size: 4rem;
     transition: 0.2s ease; }

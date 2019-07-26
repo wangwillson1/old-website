@@ -46,6 +46,9 @@ a {
   max-width: 80rem;
   padding-left: 5rem;
   padding-right: 5rem; }
+  .body-contents #about, .body-contents #skills, .body-contents #workexp, .body-contents #projects, .body-contents #connect {
+    margin-top: -60px;
+    padding-top: 60px; }
   .body-contents .skills .fa-code, .body-contents .skills .fa-css3, .body-contents .skills .fa-js, .body-contents .skills .fa-bold, .body-contents .skills .fa-plus, .body-contents .skills .fa-python {
     font-size: 3.5rem;
     margin-top: 1.5rem; }

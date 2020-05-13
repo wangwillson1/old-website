@@ -7,10 +7,6 @@ This website was constructed with HTML, CSS, and the Bootstrap 4 framework. In t
 ## Features to include:
 - Adding animations on load (ex. elements fading in from sides)
 - Fixing dropdown in navbar to be animated
-- Scroll animation when clicking links in navbar
 
 ## Current Bugs
 None so far!
-
-## Link to Website
-https://wangwillson1.github.io/personal-website/
